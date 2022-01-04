@@ -1,0 +1,82 @@
+.container{
+  box-shadow: 5px 5px 5px 5px #858585;
+}
+  
+  .coluHor {
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    color: #858585;
+    width: 25%;
+    display: inline-block;
+  }
+
+  .coluPun {
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    color: #858585;
+    width: 14%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 2%;
+  }
+
+  .colInfo {
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    color: #858585;
+    width: 14%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .title{
+      margin: 5%;
+      padding-top: 5%;
+  }
+
+  .iconBtn {
+    color: #BB4430;
+    vertical-align: bottom;
+  }
+
+  .buttonStyle{
+    width: 20%;
+    border: 2px solid #BB4430;
+    box-sizing: border-box;
+    border-radius: 35px;
+    min-height: 40px;
+    font-family: RobotoR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+    color: #BB4430;
+    cursor: pointer;
+    margin: auto;
+    background-color: transparent;
+    display:inline-block;
+    margin-right: 10px;
+    margin-bottom: 5%;
+}
+
+
+.iconAction{
+    
+    line-height: 18px;
+    color: #858585;
+    cursor: pointer;
+    padding-left: 2px;
+}
+
+.iconAvatar{
+  padding-left: 25%;
+}

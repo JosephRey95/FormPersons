@@ -1,0 +1,49 @@
+<app-navegation></app-navegation>
+<div class="container">
+    <div id="list">
+        <h3 class="title">Users in the database</h3>
+        <button class="buttonStyle" (click)= "addPerson()"><span
+            class="material-icons iconBtn">person_add</span> Create new person</button>
+    </div>
+    <div class="contHor">
+        <table class="table">
+            <thead>
+                <tr>
+                <p class="coluPun">Avatar</p>
+                <p class="coluPun">Name</p>
+                <p class="coluPun">Email </p>
+                <p class="coluPun">City</p>
+                <p class="coluPun">Company</p>
+                <p class="coluPun">Description</p>
+                <p class="coluPun">Action</p>                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let element of listPerson">
+                    <td class="colInfo">
+                        <span class="material-icons iconAvatar" >
+                            person_pin
+                        </span></td>
+                    <td class="colInfo">{{element.C_NAME}}</td>
+                    <td class="colInfo">{{element.C_EMAIL}}</td>
+                    <td class="colInfo">{{element.C_CITY}}</td>
+                    <td class="colInfo">{{element.C_COMPANY}}</td>
+                    <td class="colInfo">{{element.C_DESCRIPTION}}</td>
+                    <td class="colInfo">
+                        <p class="iconAction" >
+                            <span class="material-icons" (click)="deleteRegister(element.I_CODE)">
+                                delete
+                            </span>
+                            <span class="material-icons" (click)="updateRegister(element.I_CODE)">
+                                edit
+                            </span>
+                        </p>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
